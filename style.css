@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #24262c;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+}
+
+h1{
+    text-align: center;
+}
+
+/* Шапка */
+.head {
+    background-color: #191a1f;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+head, main, footer {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+main{
+    padding-top: 180px;
+}
+
+.logo, nav {
+    display: flex;
+    align-items: center
+}
+
+img{
+    width: 150px;
+
+}
+.nav-links {
+    list-style: none;
+    gap: 20px;
+    display: flex;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: 1s;
+}
+.nav-links a:hover {
+    background-color: #a58b5b;
+}
+
+.baner img{
+    width: 1200px;
+
+}
+.baner h1, p{
+    text-align: center;
+    margin: 15px;
+}
+
+/*Содержание*/
+
+.news{
+    display: flex;
+    padding-top: 20px;
+}
+.new{
+    width: 270px;
+    padding: 20px 0px 20px 25px;
+    margin-left: 10px;
+    background-color: #27282b;
+    border-radius: 8%;
+    border: 1px solid #a58b5b;
+    transition: 1s;
+}
+
+.new:hover{
+    background-color: #a58b5b;
+}
+
+.new img{
+    width: 240px;
+    border-radius: 5%;
+}
+
+.butom{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.btn{
+    gap: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: 1s;
+    background-color: #343644;
+}
+
+.btn:hover{
+    background-color: #a58b5b;
+}
+
+.opisanie h1{
+    text-align: center;
+} 
+
+.opisanie p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+.opisanie-img img{
+    width: 600px;
+    float: left;
+    padding: 20px 20px 20px 20px;
+    border-radius: 30px;
+    border: 1px solid #a58b5b;
+    margin: 10px;
+}
+
+.opisanie-img2 img{
+    width: 600px;
+    float: right;
+    padding: 20px 20px 20px 20px;
+    border-radius: 30px;
+    border: 1px solid #a58b5b;
+    margin: 10px;
+}
+
+.person{
+    display: flex;
+    transition: filter 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+.pers a{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.pers img{
+    width: 230px;
+    margin: 0px 40px 0px 40px;
+}
+
+.pers{
+    filter: brightness(60%);
+    transition: filter 0.3s ease;
+}
+
+.pers:hover{
+    filter: brightness(100%);
+}
+
+footer {
+    background:#191a1f;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+/*персонажи*/
+
