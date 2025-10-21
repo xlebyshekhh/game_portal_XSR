@@ -214,6 +214,77 @@ img{
     opacity: 1;
 }
 
+/* Гайды */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-top: 150px;
+}
+
+.container h1{
+    margin-bottom: 1%;
+}
+
+.guides-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.guide-card {
+    background: #191a1f;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.guide-card:hover {
+    transform: translateY(-5px);
+    background: #24221e;
+}
+
+.guide-card:active {
+    transform: translateY(-2px);
+}
+
+.guide-title {
+    color: #a58b5b;
+    margin-bottom: 10px;
+}
+
+.guide-description {
+    color: white;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.guide-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background: #a58b5b;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+}
+
+.tag.beginner { background: #516347; }
+.tag.tactics { background: #3a4b5a; }
+.tag.build { background: #6d613c; }
+
+
 /* Новостная страница */
 
 
