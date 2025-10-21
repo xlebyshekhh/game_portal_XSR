@@ -146,7 +146,7 @@ img{
     margin: 10px;
 }
 
-.person{
+.personag{
     display: flex;
     transition: filter 0.3s ease;
     color: white;
@@ -173,16 +173,46 @@ img{
     filter: brightness(100%);
 }
 
+
+/*  стили для карточек */
+.link-pers, .link-pers1 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.person, .person1 {
+    width: 500px;
+    position: relative;
+}
+
+.person img, .person1 img {
+    width: 100%;
+    display: block;
+}
+
+/* Информация появляется при наведении */
+.person-info, .person1-info {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px;
+    width: 500px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.person:hover .person-info,
+.person1:hover .person1-info {
+    opacity: 1;
+}
+
 footer {
     background:#191a1f;
     color: white;
     text-align: center;
     padding: 30px 0;
     margin-top: 40px;
-}
-
-/*персонажи*/
-
-.h1{
-    padding-bottom: 6%;
 }
