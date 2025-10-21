@@ -220,7 +220,7 @@ img{
 /* навигация по категориям */
 
 .filter_by_category {
-    margin-bottom: 2%;
+    margin-bottom: 3%;
     display: flex;
     justify-content: center
 }
